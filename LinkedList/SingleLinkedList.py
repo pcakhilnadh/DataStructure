@@ -31,7 +31,7 @@ if __name__=='__main__':
 				if choice == 1:
 					linkedList.InsertFirst(int(input("Enter the Value to be inserted")))
 				elif choice ==2:
-					linkedList.InsertLast()
+					linkedList.InsertLast(int(input("Enter the Value to be inserted")))
 				elif choice == 3:
 					InsertAfter()
 				else:
